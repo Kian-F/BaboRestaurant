@@ -1,16 +1,39 @@
-Restaurant Application
+# BABBO Restaurant Website
 
-Open it here: https://anapgsilva.github.io/restaurant_client/#/
+[Open it here.](https://anapgsilva.github.io/restaurant_client/#/)
+
+Great fun building this group project part of the Software Engineering Immersive course at General Assembly Sydney. Enjoyed the most building both order and check-out components.
+
+This website is a version of Menu Log for an individual restaurant. Users can make orders for pick-up or delivery, with the optional choice of creating a user account. Website built using REACT.js and Ruby on Rails. Deployed to Heroku and Github Pages.
 
 
+## Preview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### User home page, where a record of past orders is kept.
 
-## Available Scripts
+<img src="https://anapgsilva.github.io/restaurant_client/babbo-home.png" width="500">
+
+### Page for the menu and ordering cart.
+
+<img src="https://anapgsilva.github.io/restaurant_client/babbo.png" width="500">
+
+
+### Dependencies
+
+The front end of this application was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). [Font Awesome](https://fontawesome.com/) was also used for icons.
+
+[STRIPE](https://stripe.com/docs/development) was integrated for the card payment method, using the npm package [react-stripe-checkout](https://www.npmjs.com/package/react-stripe-checkout) and the rails gem stripe.
+
+The back end was built on Ruby on Rails, using [Knock](https://dev.to/amckean12/user-authentication-for-a-rails-api-and-a-react-client-part-1-server-side-3fej) for user authentication (Rails JWT gem version).
+
+[Rack-cors](https://github.com/cyu/rack-cors) was used for communication between front and back end.
+
+
+### Available Scripts
 
 In the project directory, you can run:
 
-### `yarn start`
+#### `yarn start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -18,57 +41,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
+#### `yarn build`
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
