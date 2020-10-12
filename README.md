@@ -8,12 +8,12 @@
 - Learnings
 
 
-# Introduction
+## Introduction
 This website is a version of Menu Log for an individual restaurant. Users can make orders for pick-up or delivery, with the optional choice of creating a user account. Website built using REACT.js and Ruby on Rails. Deployed to Heroku and Github Pages.\
 Feel free to test our app at: (https://anapgsilva.github.io/restaurant_client/#/).  
 The server repository is located at: (https://github.com/Kian-F/restaurant_server).
 
-### Motivation
+## Motivation
 The aim of this project was to deliver an app that has the following core requirements:
 - Models - have at least 3 models, associated correctly.
 - Views - use partials to DRY (Don't Repeat Yourself) up views.
@@ -23,7 +23,7 @@ The aim of this project was to deliver an app that has the following core requir
 - Heroku - deploy to Heroku.\
 This was our third project at General Assembly's Software Engineering Immersive course at Sydney.
 
-# Preview
+## Preview
 
 ### User home page, where a record of past orders is kept.
 
@@ -35,7 +35,7 @@ This was our third project at General Assembly's Software Engineering Immersive 
 
 
 
-### Technologies
+## Technologies
 
 - The front end of this application was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 - The back end was built on Ruby on Rails
@@ -48,7 +48,7 @@ This was our third project at General Assembly's Software Engineering Immersive 
 - jwt - used for logging in and creating sessions
 - [Rack-cors](https://github.com/cyu/rack-cors) was used for communication between front and back end.
 
-# Learnings
+## Learnings
 
 - User authentication
 - React front-end working with a Rails API
