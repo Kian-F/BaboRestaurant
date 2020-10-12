@@ -1,11 +1,18 @@
 # BABBO Restaurant Website
 
-[Open it here.](https://anapgsilva.github.io/restaurant_client/#/)
+## Table of Contents
+- Introduction
+- Technologies
+- Gems
+- Key Features
+- Learnings
+- Further Development
+- Screenshots
 
-Great fun building this group project part of the Software Engineering Immersive course at General Assembly Sydney. Enjoyed the most building both order and check-out components.
-
-This website is a version of Menu Log for an individual restaurant. Users can make orders for pick-up or delivery, with the optional choice of creating a user account. Website built using REACT.js and Ruby on Rails. Deployed to Heroku and Github Pages.
-
+# Introduction
+This website is a version of Menu Log for an individual restaurant. Users can make orders for pick-up or delivery, with the optional choice of creating a user account. Website built using REACT.js and Ruby on Rails. Deployed to Heroku and Github Pages.\
+Feel free to test our app at: (https://anapgsilva.github.io/restaurant_client/#/).  
+The server repository is located at: (https://github.com/Kian-F/restaurant_server).
 
 ## Preview
 
